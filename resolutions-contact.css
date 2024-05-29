@@ -1,0 +1,197 @@
+@media screen and (max-width: 1200px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 150px 850px 200px;
+        justify-items: stretch;
+        align-items: stretch;
+        padding: 0;
+    }
+    .grid-item{
+        color: red;
+        background-color: lightblue;
+        height: 100px;
+        border: 1px  solid hsl(180, 100%, 35%) ;
+    
+    }
+
+    
+    .grid-item1{
+        background-color: lightblue;
+        height: 100px;
+        width: 150px;
+    }
+    #logo{
+        height: 90px;
+        width: 90px;
+    }
+
+    #dialog1{
+        width: 1024px;
+        height: 678px;
+    }
+    
+    .grid-item2{
+        
+        background-color: lightblue;
+        height: auto;
+        height: 100px;
+        color:hsl(19, 88%, 53%);
+        font-weight: bold;
+        font-size:20px;
+        align-items: left;
+        text-align: center;
+        text-transform: capitalize;  
+        flex-grow: 1;
+        flex-shrink: 1;
+        width: 850px;
+    }
+    
+    .grid-item3{
+        color: aquamarine;
+        background-color: lightblue;
+        height: 100px;
+        text-align: left;
+        font-size: 20px;
+        padding-left: 5px;
+        width: 200px;
+        
+    }
+    #galery{
+        text-wrap: wrap;
+    }
+    .grid-item5{
+        color: black;
+        grid-column: 2/4;
+        font-size: 20px;
+        height: 13800px;
+        padding-top: 5px;
+        width: 1050px;
+       
+    }
+    .grid-item4{
+        color: aquamarine;
+        grid-column: 1/2;
+        height: auto;}
+
+        button{
+            width: 150px;
+            height: 100px;
+            background-color: rgb(0, 255, 221);
+            border: 1px  solid hsl(180, 100%, 35%) ;
+            text-align: left;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        
+        }
+        button:hover{
+            background-color: antiquewhite;
+        
+        }
+        button:active{
+            background-color: white;
+        }
+
+        footer {
+            background-color: hsl(195, 53%, 70%);
+            padding: 10px;
+            text-align: center;
+            
+            color: white;
+            width: 1200px;}
+
+            #back{
+                position: absolute;
+                top: 800px;
+                left: 0px;
+            }
+
+            .footer1{
+                position: relative;
+                left: 0%;
+                top: 0%;
+                background-color: hsl(195, 53%, 70%)
+            }
+            #map{
+                width: 400;
+            }
+
+            /*Стилі для слайдеру*/
+  #carouselExample{
+    width: 400px;
+    height: 575px;
+    position: absolute;
+    top: 2400px;
+    left: 420px;
+  }
+  
+.carousel-control-prev{
+    height: 225px;
+    width: 50px;
+    
+}
+.carousel-control-next{
+    height: 225px;
+    width: 50px;
+}
+#carousel-text{
+    position: absolute;
+    font-size: 16px;
+    top: 2370px;
+    left: 440px;
+}
+.main{
+    border: 2px solid lightblue;
+    padding: 20px;
+    font-weight: 640;
+    margin: 2px;
+}
+.contact-container-item1{
+    width: 45%;
+    border: 2px solid hsl(195, 53%, 69%);
+    padding: 0px;
+    height: 77%;
+    background-color: lightblue;
+    
+}
+.contact-container-item2{
+    width: 45%;
+    border: 2px solid hsl(195, 53%, 69%);
+    padding: 0px;
+    height: 512px;
+    background-color: lightblue;
+    height: 77%;
+}
+.contact-container-image{
+    height: 60%;
+}
+.contact-container-text{
+    width: 300px;
+    height: 400px;
+    
+
+}
+.table-text{
+    text-align: left;
+    font-size: 12px;
+}
+.tr1{
+    height: 495px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+.tr2{
+    font-weight: 500;
+    font-size: 12px;
+    padding-right: 40px;
+}
+.foot{
+    background-color: hsl(195, 53%, 70%)
+}
+#back{
+    position: absolute;
+    top: 800px;
+    left: 0px;
+}
+
+}

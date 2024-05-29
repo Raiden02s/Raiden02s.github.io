@@ -1,0 +1,286 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="style_galery.css">
+        <link rel="stylesheet" href="resolutions-galery.css">
+
+        <!--BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--BOOTSTRAP-->
+        <!--JQUERY UI-->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <!--JQUERY UI-->
+        <map name ="host"> 
+            <area shape="rect" coords="0, 0, 230, 255" title = "На сайт університету" href="https://nupp.edu.ua/" target="_blank" >
+
+
+        </map>
+        <!--dialog windows-->
+        <script>
+            $( function() {
+              $( "#dialog" ).dialog();
+            } );
+            </script>
+             <!--dialog windows-->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="grid-container">
+
+
+            <div class="grid-item grid-item1"> <img src=politech.png alt="logo" height="190px" width="190px" usemap="#host" id="logo"></div>
+            <div class="grid-item grid-item2">
+                <p id="name">НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ<br>"ПОЛТАВСЬКА ПОЛІТЕХНІКА ІМЕНІ ЮРІЯ КОНДРАТЮКА"</p>
+                <p id="fiz">Факультет фізичної культури та спорту</p>
+            </div>
+            <div class="grid-item grid-item3">
+                <button id="reg" class="regbutton"> Зарееструватися</button>
+                <br>
+                <button id="log" class="regbutton">Ввійти в аккаунт</button>
+            </div>
+
+
+
+
+
+            <div class="grid-item grid-item4">
+                <button id="about">Головна</button> <br>
+                <button id="galery">Матеріально-технічна база факультету<br>(галерея)</button> <br>
+                <button id="contact"> Контактна інформація</button>
+                <button id="back"> На початок</button>
+            </div>
+            <!--Головна частина -->
+            <div class="grid-item grid-item5" id="galery">
+                <h1>Матеріально-технічна база факультету фізичної культури і спорту</h1>
+                <!--ВСЕ ФОТКИ КАРОЧ-->
+                <div class="galery_grid_container">
+
+                    <div id="galery_item1" class="galery_grid_item" >
+                        <h2>Спортивна зала</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/sport-zala.jpg" class="galery_photo" height="300px" width="500px" onclick="image2()">
+                        <p class="galery_text"> Спортивна зала (центральний корпус, ауд. 145 Ц) площею 378,4 кв.м призначена для проведення занять з фізичного виховання серед студентів 1-2 курсів усіх спеціальностей університету. У ній постійно проходять тренування з різних видів спорту, а саме: настільного тенісу, волейболу, баскетболу, флорболу та міні-футболу взимку. Впродовж останніх 5 років у залі було проведено Чемпіонати України з пауерліфтингу, черлідингу, боксу та кікбоксінгу, Чемпіонати області з кіокушинкай-карате, тхеквандо, спортивної гімнастики, університетські спортивні змагання та естафети тощо.</p><br>
+                        
+                    </div>
+
+                    <div id="galery_item2" class="galery_grid_item">
+                        <h2>Гімнастична зала</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/gimnast-zala_n.jpg" class="galery_photo" height="300px" width="500px" onclick="image3()">
+                        <p class="galery_text">Зала (центральний корпус, ауд. 140 Ц) площею 110,9 + 37,2 кв.м розміщена у центральному корпусі університету. Призначена для проведення занять з фізичного виховання, тренувань з фітнесу та гімнастики. Зала має відповідне обладнання для цього: дзеркала, шведські стінки, обручі, мати тощо.</p>
+                        
+                    </div>
+
+                    <div id="galery_item3" class="galery_grid_item">
+                        <h2>Навчально-наукова лабораторія фізичної терапії та ерготерапії</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/nnl.jpg" class="galery_photo" height="300px" width="500px" onclick="image4()">
+                        <p class="galery_text">У новому спортивному корпусі на 2 поверсі відкрито навчально-наукову лабораторію фізичної терапії, ерготерапії площею 38,1 м2, в якій розміщено 6 сучасних комп’ютерів з ліцензованим програмним забезпеченням. Програмне забезпечення всіх комп’ютерів дозволяє проводити навчальний процес для українських та іноземних здобувачів вищої освіти за спеціальністю 227 «Фізична терапія, ерготерапія». На кожному комп’ютері встановлені програми 3D Slicer, DICOM та інші, які дозволяють виконати візуалізацію зображень та анімацію.                           У навчально-науковій лабораторії фізичної терапії, ерготерапії розміщено ліжко Nuga Best – термотерапевтичний масажер-стимулятор, у його роботі якого використовуються методи прогрівання, точкового масажу, рефлексотерапії, стоун-терапії (використання нефриту, турманієвої кераміки).  У лабораторії проводяться заняття з навчальних дисциплін: «Анатомія людини», «Масаж загальний і спортивний», «Фізіологія людини», «Фізіологія рухової діяльності та спорту» «Фізична терапія, ерготерапія при захворюваннях опорно-рухового апарату», «Фізична терапія, ерготерапія при захворюваннях нервової системи», «Фізична терапія, ерготерапія при хірургічних захворюваннях», «Фізична терапія, ерготерапія при захворюваннях внутрішніх органів», «Методи фізичної терапії, ерготерапії», «Преформовані фізичні чинники (фізіотерапія)» та інших.</p>
+                        
+                    </div>
+
+                    <div id="galery_item4" class="galery_grid_item">
+                        <h2>Лабораторія кіберспорту</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/kibersport.jpg" class="galery_photo" height="300px" width="500px" onclick="image5()">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/kibersport-2.webp" class="galery_photo" height="300px" width="500px" onclick="image6()">
+                        <p class="galery_text">Лабораторія кіберспорту в ПолтНТУ була відкрита 19 березня 2019 року разом із відкриттям спорткомплексу ПолтНТУ. Зараз спільнота електронного спорту ПолтНТУ налічує понад 60 студентів.У лабораторії проводяться тренування із таких дисциплін: Dota 2, Counter-Strike (CS:GO) та League of Legends (LoL).20 травня в змаганнях Playoff University Master Cup 2019 команди Rabbit Team [RT] та Team from the Shadow [TFTS] пройшли в плей-офф змагань в дисципліні CS:GO. Протягом 20-21 липня регіональна кваліфікація з дисциплін Dota 2 та CS:GO зібрала кіберспортсменів Полтавської області у спорткомплексі ПолтНТУ. Наші команди посіли друге в CS:GO та третє в Dota 2 місця і, нажаль, не отримала слот в гранд-фінал чемпіонату України.</p>
+                    </div>
+
+                    <div id="galery_item5" class="galery_grid_item">
+                        <h2>Клуб спортивного більярду</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/biliard.jpg" class="galery_photo" height="300px" width="500px" onclick="image7()">
+                        <p class="galery_text">Просторе приміщення клубу більярдного спорту площею 145 кв.м знаходиться на 3 поверсі спортивного корпусу. В приміщенні розміщено 5 сучасних більярдних столів. Тут проводяться змагання Всеукраїнського рівня серед школярів, студентів та науково-педагогічних працівників з більярдного спорту. У більярдній залі можуть однаково добре проводити час новачки та професіонали. Ми раді всім, хто розділяє нашу любов до більярду.</p>
+                        
+                    </div>
+
+                    <div id="galery_item6" class="galery_grid_item">
+                        <h2>Зала спортивних бальних танців і черлідингу</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/balni-tanci.jpg" class="galery_photo" height="300px" width="500px" onclick="image8()">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/cherliding.jpg" class="galery_photo" height="300px" width="500px" onclick="image9()">
+                        <p class="galery_text">Сучасна зала спортивно-бальних танців та черлідингу знаходиться на 4 поверсі спортивного корпусу. Просторе приміщення обладнане дзеркалами, LED-телевізором, а також стаціонарною акустичною системою, що дозволяє проводити тренування з черлідингу в умовах, наближених до змагальних. Підлога вкрита паркетним покриттям. Результатами тренувань є високі досягнення студенток-спортсменок з черлідингу – збірної команди університету на Чемпіонатах та Кубках України, Європи.</p>
+                        
+                    </div>
+
+                    <div id="galery_item7" class="galery_grid_item">
+                        <h2>Багатофункціональний спортивний майданчик</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mfs-maidanchik.webp" class="galery_photo" height="300px" width="500px" onclick="image10()">
+                        <p class="galery_text">Майданчик є новим в університеті. Його офіційно відкрили 14 листопада 2019 р. Призначений для проведення тренувань і змагань з волейболу, баскетболу, тенісу, флорболу, міні-футболу на подвір’ї. Має спеціальне обладнання для цих видів спорту: волейбольні – сітка, стійки та антени, м’ячі; баскетбольні – щити, кільця, м’ячі; тенісні – сітка, м’ячики тощо). Спортивний майданчик виготовлений зі спеціального наливного гумового покриття, на якому легко рухатися і воно має оптимальні функціональні характеристики, зокрема високу міцність та зносостійкість, протиковзну поверхню, що знижує ризик травмування під час тренувань.</p>
+                    </div>
+
+                    <div id="galery_item8" class="galery_grid_item">
+                        <h2>Спортивний майданчик для волейболу й баскетболу</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/sport-maid_now.webp" class="galery_photo" height="300px" width="500px" onclick="image11()">
+                        <p class="galery_text">Спортивний майданчик призначений для призначених для проведення тренувань і змагань з волейболу, баскетболу, тенісу великого, флорболу, стрітболу. Має спеціальне обладнання для цих видів спорту: волейбольні – сітки, стійки та антени, м’ячі; баскетбольні – щити, кільця, м’ячі; тенісні – сітки, м’ячики тощо). Майданчик виготовлений зі спеціального наливного гумового покриття, на якому легко рухатися і воно має оптимальні функціональні характеристики, зокрема високу міцність та зносостійкість, протиковзну поверхню, що знижує ризик травмування під час тренувань.</p>
+                    </div>
+
+                    <div id="galery_item9" class="galery_grid_item">
+                        <h2>Майданчик для воркаута</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/workout.jpg" class="galery_photo" height="300px" width="500px" onclick="image12()">
+                        <p class="galery_text">Майданчик відкритий в день святкування Міжнародного Дня студентського спорту 20.09.2019 р. Призначений для спортивних тренувань та фітнесу на подвір’ї. На майданчику встановлено гімнастичний комплекс, що включає дев’ять вертикальних опорних стовпів, рукохід, чотири перекладини, пару гімнастичних кілець і спортивні бруси. Також є 8 вуличних тренажерів для занять фізичними вправами на свіжому повітрі: гребний тренажер; орбітрек; гіперекстензія; для жиму ногами; для жиму від грудей, верхня тяга; для пресу з упором на руки; для черевного пресу; батерфляй.
+
+                            Така кількість тренажерів і їх зручне розташування дозволяють не менше як дванадцятьом студентам одночасно займатися фізичними вправами. Виконання вправ різного рівня складності сприяє розвитку сили й витривалості, формуванню атлетичної статури, підвищенню рівня фізичної підготовленості спортсменів і осіб які займаються фізичною культурою та спортом. Студенти охоче займаються на тренажерах під час занять з фізичного виховання та у вільний від занять час. У літній, весняний і осінній сезон майданчик є прекрасною альтернативою тренажерних залів.</p>
+                    </div>
+
+                    <div id="galery_item10" class="galery_grid_item">
+                        <h2>Майданчики зі штучним покриттям для міні-футболу</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mini-football1.webp" class="galery_photo" height="300px" width="500px"onclick="image13()">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mini-football2.webp" class="galery_photo" height="300px" width="500px" onclick="image14()">
+                        <p class="galery_text">Майданчики призначені для проведення тренувань і змагань з міні-футболу. Мають спеціальне покриття зі штучної трави, огороджені сіткою. Щороку на ньому проходять Кубки співдружності між студентами і викладачами з міні-футболу, міжвузівські універсіади, а також змагання та тренування. Додамо, що тренуються не тільки студенти, а також учні, наприклад, футбольна команда Полтавської ЗОШ № 4, вчитель Антонець Володимир Олексійович.</p>
+                    </div>
+
+                    <div id="galery_item11" class="galery_grid_item">
+                        <h2>Зала важкої атлетики</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/IMG_3095.webp" class="galery_photo" height="300px" width="500px" onclick="image15()">
+                        <p class="galery_text">Зала важкої атлетики (центральний корпус, ауд. 146 Ц) площею 185 м2 призначена для проведення занять з силових видів спорту, зокрема з «Теорії і методики викладання атлетизму», забезпечення тренувального процесу та проведення змагань з гирьового спорту, пауерліфтенгу, важкої атлетики тощо. Матеріально-технічну базу зали оновлено у 2019-2020 рр. сучасним спортивним обладнанням, зроблено капітальний ремонт. За останні роки на базі зали важкої атлетики проведено ряд змагань, зокрема Універсіаду Полтавщини з гирьового спорту та важкої атлетики.</p>
+                    </div>
+
+                    <div id="galery_item12" class="galery_grid_item">
+                        <h2>Спортивний комплекс на відкритому повітрі (стадіон)</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/IMG_3108.webp" class="galery_photo" height="300px" width="500px" onclick="image16()">
+                        <p class="galery_text">Спортивний комплекс на відкритому повітрі (стадіон) призначений для проведення практичних занять та змагань з ігрових видів спорту, легкої атлетики, бадмінтону. Комплекс включає: футбольне поле – 4140 м2, легкоатлетичні доріжки 4х300 м, сектор для штовхання ядра, майданчик з нестандартним гімнастичним обладнанням, майданчик для пляжного волейболу 360 м2 , майданчик зі штучним покриттям для міні-футболу – 1071 м2, яму для стрибків в довжину.</p>
+                    </div>
+
+                    <div id="galery_item13" class="galery_grid_item">
+                        <h2>Спортивна зала гуртожитку № 3</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/zala-3-gurtozhitok.webp" class="galery_photo" height="300px" width="500px" onclick="image17()">
+                        <p class="galery_text">Спортивна зала гуртожитку № 3 площею 177 м2 призначена для проведення практичних занять з дисциплін силової підготовки та загально-фізичної підготовки, тренувань секцій пауерліфтингу та важкої атлетики тощо.</p>
+                    </div>
+
+                    <div id="galery_item14" class="galery_grid_item">
+                        <h2>Спортивна зала гуртожитку № 4</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/zala-4-gurtozhitok.webp" class="galery_photo" height="300px" width="500px" onclick="image18()">
+                        <p class="galery_text">Спортивна зала гуртожитку № 4 площею 175 м2 призначена для навчально-тренувального процесу з різних видів боротьби, зокрема дзю-до, вільної боротьби, греко-римської боротьби та проведення практичних занять з навчальних дисциплін «Фітнес-програми аеробної та силової спрямованості», «Теорії і технології оздоровчо-рекреаційної рухової активності», «Інноваційні технології у практиці фізичного виховання і спорту».</p>
+                    </div>
+
+                    <div id="galery_item15" class="galery_grid_item">
+                        <h2>Кабінет доклінічної практики</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image001.webp" class="galery_photo" height="400px" width="400px" onclick="image19()">
+                        <p class="galery_text">У кабінеті доклінічної практики ерготерапії розміщено ліжко Nuga Best – термотерапевтичний масажер-стимулятор, у його роботі якого використовуються методи прогрівання, точкового масажу, рефлексотерапії, стоун-терапії (використання нефриту, турманієвої кераміки), велотренажер, пульсоксіметр Heaco СMS 50C, тонометри LONGEVITA BP-103H, сходи різної висоти (10 см, 15 см), дзеркало, милиці пахвові OSD-BL570200 двостійкові №2, палиці НТ-01-002, крісло колісне КкД-04-01, мат, подушки, ваги, фітболи, джгути різної пружності для тренування кінцівок, обтядувачі, гоніометри, ростомір.   У кабінеті проводяться заняття з навчальних дисциплін «Клінічний менеджмент при захворюваннях опорно-рухового апарату», «Клінічний менеджмент при захворюваннях нервової системи», «Фізична терапія, ерготерапія при хірургічних захворюваннях», «Клінічний менеджмент при захворюваннях внутрішніх органів», «Методи фізичної терапії, ерготерапії», «Терапевтичні вправи»</p>
+                    </div>
+
+                    <div id="galery_item16" class="galery_grid_item">
+                        <h2>Навчально- наукова лабораторія мануальної терапії</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image003.webp" class="galery_photo" height="400px" width="400px" onclick="image20()">
+                        <p class="galery_text">У спортивному корпусі на 2 поверсі також відкрито навчально-наукову лабораторію мануальної терапії, площею 21,5 м2, в якій розміщено 6 масажних ліжок та допоміжний інвентар для засвоєння різних мануальних технік у мікрогрупах студентами за освітньою програмою. У кабінеті проводяться курси масажу та наступні дисципліни: заняття з навчальних дисциплін: «Масаж», «Кінезіологія», «Методи фізичної терапії, ерготерапії», «Пропедевтика внутрішніх хвороб» та інших.</p>
+                    </div>
+
+                    <div id="galery_item18" class="galery_grid_item">
+                        <h2>Навчально-наукова лабораторія фізіотерапії</h2>
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image013.webp" class="galery_photo" height="500px" width="500px" onclick="image21()">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image015.webp" class="galery_photo" height="500px" width="500px" onclick="image22()">
+                        <p class="galery_text">На базі гуртожитку № 2 базується навчально-наукова лабораторія фізіотерапії, площею 58 м2, призначена для вивчення дії різних преформованих  чинників, яка має спеціалізоване  професійне обладнання та повноцінно функціонує як одиниця профілакторного забезпечення студентів університеру, а також проведення практичних занять з навчальних дисципліни «Преформовані фізичні чинники».</p>
+                    </div>
+                    <!--DIALOG WINNOW-->
+                    <div id="dialog1" title="Спортивна зала">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/sport-zala.jpg"  width="1600" height="900px"> <!--IMAGE 2-->
+                    </div>
+
+                    <div id="dialog3" title="Гімнастична зала">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/gimnast-zala_n.jpg" width="1600" height="900px"> <!--IMAGE 3-->
+                    </div>
+                    <div id="dialog4" title="Навчально-наукова лабораторія фізичної терапії та ерготерапії">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/nnl.jpg" width="1600" height="900px"> <!--IMAGE 4-->
+                    </div>
+                    <div id="dialog5" title="Лабораторія кіберспорту">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/kibersport.jpg" width="1600" height="900px"> <!--IMAGE 5-->
+                    </div>
+                    <div id="dialog6" title="Лабораторія кіберспорту">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/kibersport-2.webp" width="1600" height="900px"> <!--IMAGE 6-->
+                    </div>
+                    <div id="dialog7" title="Клуб спортивного більярду">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/biliard.jpg" width="1600" height="900px"> <!--IMAGE 7-->
+                    </div>
+                    <div id="dialog8" title="Зала спортивних бальних танців і черлідингу">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/balni-tanci.jpg" width="1600" height="900px"> <!--IMAGE 8-->
+                    </div>
+                    <div id="dialog9" title="Зала спортивних бальних танців і черлідингу">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/cherliding.jpg" width="1600" height="900px"> <!--IMAGE 9-->
+                    </div>
+                    <div id="dialog10" title="Багатофункціональний спортивний майданчик">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mfs-maidanchik.webp" width="1600" height="900px"> <!--IMAGE 10-->
+                    </div>
+                    <div id="dialog11" title="Спортивний майданчик для волейболу й баскетболу">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/sport-maid_now.webp" width="1600" height="900px"> <!--IMAGE 11-->
+                    </div>
+                    <div id="dialog12" title="Майданчик для воркаута">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/workout.jpg" width="1600" height="900px"> <!--IMAGE 12----------------------------------->
+                    </div>
+                    <div id="dialog13" title="Майданчики зі штучним покриттям для міні-футболу">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mini-football1.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog14" title="Майданчики зі штучним покриттям для міні-футболу">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/images/mtb-ffks/mini-football2.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog15" title="Зала важкої атлетики">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/IMG_3095.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog16" title="Спортивний комплекс на відкритому повітрі (стадіон)">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/IMG_3108.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog17" title="Спортивна зала гуртожитку № 3">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/zala-3-gurtozhitok.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog18" title="Спортивна зала гуртожитку № 4">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fks/m-tech-sport-base/zala-4-gurtozhitok.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog19" title="Кабінет доклінічної практики">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image001.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog20" title="Навчально- наукова лабораторія мануальної терапії">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image003.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog21" title="Навчально-наукова лабораторія фізіотерапії">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image013.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+                    <div id="dialog22" title="Навчально-наукова лабораторія фізіотерапії">
+                        <img src="https://nupp.edu.ua/uploads/files/0/main/deps/faculty/sport-faculty/kaf-fte/mt-baza/clip_image015.webp" width="1600" height="900px"> <!--IMAGE 13-->
+                    </div>
+
+                    
+                    
+
+                    <!--DIALOG WINNOW-->
+                </div>
+
+                <!-- ВСЕ ФОТКИ КАРОЧ-->
+
+            </div>
+
+        </div>
+        <script src="galery.js"></script>
+        <script src="script.js"></script>
+        
+        <!--BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--BOOTSTRAP-->
+        <footer class="foot">
+            <table class="footer1">
+              <tr >
+                  <td class="tr1">
+              <img src="politech.png" class="contact-container-image" style="margin-right: 5px;" usemap="#host">
+                  </td>
+                  <td>
+                      <h3>Контактна інформація:</h3>
+                        
+                      <p> 
+                          Телефон приймальної комісії:<br>
+                          <i class="bi bi-telephone-fill"></i> +38 (0532)56-16-04
+                          <br>
+                          <i class="bi bi-telephone-fill"></i> +38 (099)057-65-17
+                          <br>
+                          Електронні пошти приймальної комісії:<br>
+                          <i class="bi bi-envelope-open-fill"></i> kanc@nupp.edu.ua
+                          <br>
+                          <i class="bi bi-envelope-open-fill"></i> vstup@nupp.edu.ua
+
+                      </p>
+                  </td>
+                  <td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.1544460731725!2d34.56436157689788!3d49.57597554994043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f64cd0cbd85%3A0x528a08266c1d4938!2z0J3QsNGG0ZbQvtC90LDQu9GM0L3QuNC5INGD0L3RltCy0LXRgNGB0LjRgtC10YIgwqvQn9C-0LvRgtCw0LLRgdGM0LrQsCDQv9C-0LvRltGC0LXRhdC90ZbQutCwINGW0LzQtdC90ZYg0K7RgNGW0Y8g0JrQvtC90LTRgNCw0YLRjtC60LDCuw!5e0!3m2!1sru!2sua!4v1716965988276!5m2!1sru!2sua" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe></td>
+              </tr>
+              
+              </table>
+              
+          </div>
+          </footer>
+    </body>
+</html>
