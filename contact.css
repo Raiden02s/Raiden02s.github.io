@@ -53,6 +53,7 @@ table{
     position: relative;
     left: 20%;
     top: 0%;
+    background-color: hsl(195, 53%, 70%);
 }
 
 footer {
@@ -61,6 +62,7 @@ footer {
     text-align: center;
     color: white;
     width: 1903px;
+    
   }
   #back{
     position: absolute;
