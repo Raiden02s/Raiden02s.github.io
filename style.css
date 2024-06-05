@@ -97,7 +97,7 @@ button{
 }
 button:hover{
     background-color: antiquewhite;
-
+    transition: 0.2s;
 }
 button:active{
     background-color: white;

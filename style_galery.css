@@ -40,6 +40,7 @@
 }
 .galery_photo:hover{
     transform: scale(105%);
+    transition: 0.5s;
 }
 
 .galery_photo:active{
@@ -141,6 +142,7 @@ button{
 }
 button:hover{
     background-color: antiquewhite;
+    transition: 0.2s;
 
 }
 button:active{
